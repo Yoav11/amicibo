@@ -1,0 +1,80 @@
+html, body {
+    padding:0;
+    margin:0;
+    height:100%;
+    font-family: futura;
+}
+
+.header {
+    height: 400px;
+    background: linear-gradient(180deg, #EE50CC 0%, rgba(255, 255, 255, 0) 100%), #CF04A2;
+    color: white;
+}
+.header .purple {
+
+}
+
+.logo {
+    width:245px;
+    height:296px;
+}
+
+.logo img {
+    width:100%;
+    height:100%;
+}
+
+.centered{
+    text-align: center;
+    width:245px;
+    margin: 0 auto;
+}
+.centered h4 {
+    color: #6B1CBB;
+    font-family: futura;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.centered .arrow-button{
+    padding: 0;
+    width:122.5px;
+    margin: 0 auto;
+}
+.centered .arrow-button button{
+    border-radius: 100%;
+    height:114px;
+    width:114px;
+    border: none;
+    background-color: #5DBE96;
+    color: #F5F5F5;
+}
+.centered .arrow-button button i{
+    font-size: 90px;
+    padding: 0;
+}
+
+.centered .arrow-button button:focus {
+    border-style: solid;
+    outline: none;
+    border-color: #5dd8a5;
+}
+
+.login-form {
+    position: absolute;
+    left:85%;
+    top:30px;
+}
+.login-form button {
+    border-radius:10px;
+    width:133px;
+    height: 47px;
+    font-size: 24px;
+    background-color: #5DBE96;
+    color: #F5F5F5;
+    border: none
+}
+.login-form button:focus {
+    border-style: solid;
+    outline: none;
+    border-color: #5dd8a5;
+}

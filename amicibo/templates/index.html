@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}amicibo{% endblock %}
+{% block head %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+{% block content %}
+  <section class="header">
+      <form class="login-form">
+          <button type="submit" name="button">Login</button>
+      </form>
+      <div class="centered">
+          <div class="logo">
+              <img src="{{ url_for('static', filename='img/logo.png') }}">
+          </div>
+          <h4>Get started</h4>
+          <div class="arrow-button">
+              <button type="button" name="button"><i class="material-icons">arrow_drop_down</i></button>
+          </div>
+      </div>
+  </section>
+{% endblock %}

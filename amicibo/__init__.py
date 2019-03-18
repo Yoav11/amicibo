@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Configurations
 app.config.from_object('config')
 
-# db = SQLAlchemy(app)
-# db.create_all()
+db = SQLAlchemy(app)
+db.create_all()
 
-import my_app.views
+import amicibo.views
